@@ -20,33 +20,56 @@
     </div>
 
     <div class="content">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign Up now to get started.<br><br>You know you want to.</p>
-
-        <div class="form-container">
-            <h3>Let's do this!</h3>
-
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" id="first-name">
-
-            <label for="last-name">LAST NAME</label>
-            <input type="text" id="last-name">
-
-            <label for="email">EMAIL</label>
-            <input type="email" id="email">
-
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" id="phone-number">
-
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password">
-
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm-password">
-
+        <div class="content-text">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign Up now to get started.<br><br>You <i>know</i> you want to.</p>
         </div>
 
-        <button>Create Account</button>
-        <p>Already have an account? <a href="#">Login</a></p>
+        <div class="form-container">
+            <h2>Let's do this!</h2>
+
+            <div class="horizontal">
+                <div class="input-pair">
+                    <span>FIRST NAME</span>
+                    <input type="text" id="first-name" placeholder="Thor">
+                </div>
+
+                <div class="input-pair">
+                    <span>LAST NAME</span>
+                    <input type="text" id="last-name" placeholder="Odinson">
+                </div>
+            </div>
+
+            <div class="horizontal">
+                <div class="input-pair">
+                    <span>EMAIL</span>
+                    <input type="email" id="email" placeholder="thor@odinson.com">
+                </div>
+
+                <div class="input-pair">
+                    <span>PHONE NUMBER</span>
+                    <input type="tel" id="phone-number">
+                </div>
+            </div>
+
+            <div class="horizontal">
+                <div class="input-pair">
+                    <span>PASSWORD</span>
+                    <input type="password" id="password" placeholder="Enter strong password">
+                </div>
+
+                <div class="input-pair">
+                    <span>CONFIRM PASSWORD</span>
+                    <input type="password" id="confirm-password" placeholder="Re enter the password">
+                </div>
+            </div>
+        </div>
+
+        <div class="account">
+            <div class="create-account">
+                <button>Create Account</button>
+            </div>
+            <p>Already have an account? <a href="#" class="login-text">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>
