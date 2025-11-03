@@ -107,6 +107,12 @@ input {
     padding: 5px;
 }
 
+input:focus {
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 2px 2px 15px lightgray;
+}
+
 .account {
     margin-left: 50px;
 }
@@ -119,6 +125,7 @@ button {
     padding: 15px 50px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .create-account {
@@ -131,6 +138,6 @@ button {
     font-weight: bold;
 }
 
-#password:invalid {
+#password:invalid, #confirm-password:invalid {
     border: 2px solid red;
 }
